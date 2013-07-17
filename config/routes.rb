@@ -1,4 +1,18 @@
 Gordon::Application.routes.draw do
+  resources :recipes
+
+  resources :recipe_ingredients
+
+  resources :recipe_steps
+
+  resources :ratings
+
+  resources :steps
+
+  resources :quantities
+
+  resources :ingredients
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

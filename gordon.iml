@@ -24,7 +24,19 @@
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="rails" version="3.2.13" bound="EQUAL" git="false" path="false" doRequire="true" />
+        <dependency name="pg" version="0.15.1" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="4.0.0" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails_12factor" version="0.0.2" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
