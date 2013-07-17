@@ -1,8 +1,5 @@
 class AddJoinTables < ActiveRecord::Migration
   def change
-    drop_table :recipe_steps
-    drop_table :recipe_ingredients
-
     create_join_table :recipes, :steps, column_options: {null: false} do |t|
       t.index :recipe_id
       t.index :step_id
