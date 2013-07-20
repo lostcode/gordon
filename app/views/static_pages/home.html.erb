@@ -1,6 +1,11 @@
 <% provide(:title, 'Home') %>
-<!DOCTYPE html>
-<h1>Would Gordon Approve?</h1>
-<p>
-    Yes. Would he?
-</p>
+<div class="center hero-unit">
+  <h1>Would Gordon Approve?</h1>
+  <h2>
+    Would Gordon Approve of your lousy recipe?
+  </h2>
+
+  <%= link_to "Sign Up", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("gordon-01.jpg", alt: "Rails"), 'http://rubyonrails.org/' %>
